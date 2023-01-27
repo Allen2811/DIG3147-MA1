@@ -7,8 +7,11 @@
     </head>
     <body>
 
-        <h1>This is a Heading</h1>
-            <p>This is a paragraph.  </p>
-
+            <h2> <a href=  target="blank"> Moguls</a></h2> 
+            <h2> <a href=  target="blank"> Production</a></h2>
+            <h2> <a href=  target="blank"> Style</a></h2>
+     <div>
+        <img src="/Photos/Hip-Hop Photo.jpg"
+     </div>   
     </body>
 </html>
