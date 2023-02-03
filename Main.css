@@ -1,0 +1,48 @@
+Body{
+    background-color: rgb(179, 184, 184);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}       
+h1{
+    font-style: bold;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.Moguls {
+    float: left;
+    width: 10%;
+    padding: 20px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin: 0 auto;
+  }
+  .Production {
+    float: left;
+    width: 10%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .Style {
+    float: left;
+    width: 15%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
