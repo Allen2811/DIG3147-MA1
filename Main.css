@@ -13,6 +13,7 @@ p{
     float: left;
     width: 10%;
     padding: 20px;
+    
   }
   
   .row::after {
