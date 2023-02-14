@@ -12,8 +12,7 @@ p{
 .Moguls {
     float: left;
     width: 10%;
-    padding: 20px;
-    
+    padding: 20px;  
   }
   
   .row::after {
@@ -46,4 +45,18 @@ p{
     clear: both;
     display: table;
   }
-  
+  .center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.center2{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center3{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
