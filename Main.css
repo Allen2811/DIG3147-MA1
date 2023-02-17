@@ -1,24 +1,29 @@
 Body{
- background-color: blanchedalmond;
+ background-color: rgb(180, 145, 142);
 }       
 h1{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: bold;
     text-align: center;
+    color: #673b90;
 }
 h2{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   font-style: bold;
+  color: #673b90 ;
 }
 p{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size:large;
     text-align: center;
+    line-height: 4ch;
 }
 .box{
   height: 50px;
   flex: 3;
+  box-sizing: border-box;
+  background-color: rgb(204, 131, 130);
 }
 .container{
   display: flex;
