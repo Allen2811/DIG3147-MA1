@@ -1,62 +1,44 @@
 Body{
-    background-color: rgb(179, 184, 184);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background-color: blanchedalmond;
 }       
 h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: bold;
     text-align: center;
 }
+h2{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-style: bold;
+}
 p{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:large;
     text-align: center;
 }
-.Moguls {
-    float: left;
-    width: 10%;
-    padding: 20px;  
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-    margin: 0 auto;
-  }
-  .Production {
-    float: left;
-    width: 10%;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .Style {
-    float: left;
-    width: 15%;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .center{
+.box{
+  height: 50px;
+  flex: 3;
+}
+.container{
+  display: flex;
+  text-align: center;
+  font-style: Bold;
+  font-size: x-large;
+}
+.pic_1{
     display:block;
     margin-left: auto;
     margin-right: auto;
   }
-.center2{
+.pic_2{
   display:block;
   margin-left: auto;
   margin-right: auto;
 }
-.center3{
+.pic_3{
   display:block;
   margin-left: auto;
   margin-right: auto;
+  width: 70%;
 }
